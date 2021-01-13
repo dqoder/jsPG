@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> jsTGP </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./js-logo.png">
+
+    <!-- <link rel="stylesheet" href="./codemirror/theme/dracula.css"> -->
+    <link rel="stylesheet" href="./codemirror/lib/codemirror.css">
+    <!-- <link rel="stylesheet" href="./codemirror/theme/paraiso-dark.css"> -->
+    <link rel="stylesheet" href="./codemirror/theme/material-darker.css">
+    <link rel="stylesheet" href="./codemirror/addon/scroll/simplescrollbars.css">
+</head>
+
+<body>
+    <div class="" id="container">
+
+        <div id="input">
+            <div class="top-bar">
+                <span class="bg-text"><text>JS</text></span>
+                <span class="nobg-text"><text>playground</text></span>
+                <button onclick="runInput()">Run</button>
+                <button class="" onclick="clearInput()">Clear</button>
+                <button class="hidden" onclick="toggleTerminal()">Show </button>
+            </div>
+            <!-- <textarea class="text-area">// input js</textarea> -->
+            <textarea class="text-area">
+
+
+
+
+
+/*
+        JS playground
+        use console.logg() for logging in given console.
+*/
+</textarea>
+        </div>
+        <div id="terminal">
+            <div class="top-bar">
+                <span class="nobg-text"><text>Console</text></span>
+                <button class="" onclick="clearTerminal()">Clear</button>
+                <button class="" onclick="toggleTerminal()">Hide</button>
+            </div>
+            <div class="text-area">
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+<!-- <script src="theGoodParts.js"></script> -->
+<script src="./codemirror/lib/codemirror.js"></script>
+<script src="./codemirror/addon/scroll/simplescrollbars.js"></script>
+<script src="./codemirror/addon/comment/comment.js"></script>
+<script src="./codemirror/mode/javascript/javascript.js"></script>
+<script src="./lib/script.js"></script>
+
+</html>

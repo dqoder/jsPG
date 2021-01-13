@@ -77,7 +77,7 @@ textarea:focus{
 }
 
 .bg-text>text{
-    color: black;
+    color: black !important;
     position:absolute;
     font-family: sans-serif;
     bottom: 0;
@@ -132,13 +132,7 @@ textarea:focus{
     border-bottom: 2px solid gray; */
 }
 
-.top-bar > text{
-    
-    /* display: inline-block; */
-    /* outline: 1px dashed limegreen; */
-    /* height: 100%; */
-    /* width: 50%; */
-}
+
 
 .top-bar > button{
     /* background-color: darkslategrey; */
@@ -193,15 +187,6 @@ textarea:focus{
     /* border-radius: 10px; */
     -webkit-box-shadow: inset 1px 1px 10px white; 
     box-shadow:  inset 1px 1px 10px white;
-}
-
-.text-area::-webkit-scrollbar-thumb:hover {
-    /* border-radius: 10px;
-    background: inherit;
-    width: 100%;
-    cursor: pointer;
-    -webkit-box-shadow: inset 1px 1px 10px white; 
-    box-shadow:  inset 1px 1px 10px white; */
 }
 
 
